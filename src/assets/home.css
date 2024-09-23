@@ -1,0 +1,46 @@
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.28); /* 半透明白色遮罩 */
+    z-index: 0;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #e36333;
+    margin-top: 80px;
+}
+.btn {
+    font-size: 50px;
+    margin: 120px;
+    color: black;
+    position: relative;
+    z-index: 1; /* 确保按钮在背景遮罩层上方 */
+    transition: color 0.3s ease, background-color 0.3s ease; /* 添加平滑过渡 */
+}
+
+.btn:hover {
+    color: green; /* 鼠标悬停时字体颜色 */
+}
+.div1{
+    width: 1260px;
+    background-size: cover;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    background: url("../img/首页.jpg") center;
+    background-size: cover;
+    border-radius:4px ;
+}
