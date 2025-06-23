@@ -1,5 +1,5 @@
 {
   "version": "1.0.2",
-  "downloadUrl": "http://your_domain.com/path/to/your/app-release.apk",
+  "downloadUrl": "https://github.com/Eran-ovo/snsys/releases/download/w/app-release.apk",
   "updateDescription": "1. 这是一个全新的版本。\n2. 优化了性能并修复了bug。"
 }
